@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Police Import</title>
+
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+      @font-face {
+        font-family: 'Courier';
+        src: url(CourierStd.otf);
+      }
+
+
+
+      h1, h2, h3 {
+        font-family: 'Roboto', sans-serif;
+
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14pt;
+      }
+
+      .fichier{
+        font-family: 'Courier';
+
+
+
+      }
+
+
+
+    </style>
+
+
+
+  </head>
+  <body>
+
+
+    <h1>L'importation de polices</h1>
+    <p>Pour importer des polices dans notre site web,
+      il y a deux possibilités, la première est d'utiliser
+      Google fonts et la deuxième est d'importer la police
+      depuis nos fichiers</p>
+
+
+    <h2>Google fonts:</h2>
+    <p> Il suffit de se rendre sur le site Google font et de choisir la police souhaitée,
+    ensuite on copie le @import et on le colle dans le style de notre fichier css. Après cela on peut appliquer la police à ce que l'on veut</p>
+
+    <h2>Depuis nos fichiers:</h2>
+    <p class="fichier">Pour cela il faut mettre le fichier .otf de notre police dans le meme dossier que notre code html.
+    Il faut ensuite créer un @font-face dans le style et lui attribuer notre police. Pour cela il faut faire ca:
+  <li class="fichier">font-family: 'nom'</li>
+  <li class="fichier">src: url(le nom du fichier de la police)</li>
+
+  <p class="fichier">il ne nous reste plus qu'a appliquer la police à ce que l'on veut</p>
+</p>
+
+
+  </body>
+</html>

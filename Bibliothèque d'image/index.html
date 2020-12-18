@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bibliothèque d'image</title>
+
+    <style media="screen">
+
+    body{
+
+      margin: 0;
+    }
+
+      .container {
+
+        width: 100vw;
+        height: 100vh;
+
+
+        display: grid;
+        justify-content: center;
+        align-content: center;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .image_container{
+
+      border: 1px solid;
+      grid-column-start: span 1;
+      grid-column-end:   span 1;
+      display: grid;
+
+      grid-row-start: 1;
+      grid-row-end: span 1;
+
+      align-items: center;
+    }
+
+    .image_container2{
+
+      border: 1px solid;
+      grid-column-start: span 1;
+      grid-column-end:   span 1;
+      display: grid;
+
+      grid-row-start: span 1;
+      grid-row-end: span 1;
+
+      align-items: center;
+    }
+
+
+
+    .image {
+
+      width: 100%;
+      height: auto;
+    }
+
+    h1{
+
+      text-align: center;
+    }
+
+
+    </style>
+
+
+  </head>
+  <body>
+
+
+
+    <div class="container">
+
+      <div class="image_container">
+        <img class="image"src="Image1.jpeg">
+        <h1>Image1</h1>
+
+      </div>
+
+      <div class="image_container">
+        <img class="image" src="Image2.jpeg">
+        <h1>Image2</h1>
+
+      </div>
+
+
+      <div class="image_container">
+        <img class="image" src="Image3.jpeg">
+        <h1>Image3</h1>
+
+      </div>
+
+      <div class="image_container2">
+        <img class="image" src="Image3.jpeg">
+        <h1>Image3</h1>
+
+      </div>
+
+      <div class="image_container2">
+        <img class="image" src="Image3.jpeg">
+        <h1>Image3</h1>
+
+      </div>
+
+      <div class="image_container2">
+        <img class="image" src="Image3.jpeg">
+        <h1>Image3</h1>
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </body>
+</html>
